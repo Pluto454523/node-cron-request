@@ -4,7 +4,7 @@ const request = require('request');
 const config = require('./config');
 const { JOB_SCHEDULE, USERNAME_KMUTNB, PASSWORD_KMUTNB } = config;
 
-const app = require('./index');
+const app = require('./api');
 const { getSession } = app;
 
 
