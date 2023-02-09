@@ -19,7 +19,7 @@ cron.schedule(JOB_SCHEDULE, () => {
     fs.appendFile('log.txt', `[${time}] Runing task\n`, function (err) {
         if (err) throw err;
         console.log(`[${time}] Runing task`)
-        // getSession(USERNAME_KMUTNB, PASSWORD_KMUTNB)
+        getSession(USERNAME_KMUTNB, PASSWORD_KMUTNB)
     })
 }, {
     scheduled: true,
