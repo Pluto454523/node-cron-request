@@ -10,7 +10,7 @@ const { getSession } = app;
 
 cron.schedule(JOB_SCHEDULE, () => {
     console.log("Runing task")
-    // getSession(USERNAME_KMUTNB, PASSWORD_KMUTNB)
+    getSession(USERNAME_KMUTNB, PASSWORD_KMUTNB)
 }, {
     scheduled: true,
     timezone: "Asia/bangkok"
