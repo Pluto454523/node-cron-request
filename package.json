@@ -4,12 +4,13 @@
   "description": "Javascript to call api software.kmutnb.ac.th",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "PLUTo",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.0.3",
+    "node-cron": "^3.0.2",
     "request": "^2.88.2"
   }
 }
