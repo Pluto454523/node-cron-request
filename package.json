@@ -1,0 +1,15 @@
+{
+  "name": "adobescript",
+  "version": "1.0.0",
+  "description": "Javascript to call api software.kmutnb.ac.th",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "PLUTo",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "request": "^2.88.2"
+  }
+}
