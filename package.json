@@ -1,5 +1,5 @@
 {
-  "name": "adobescript",
+  "name": "nodejs_request_api_license_adobe",
   "version": "1.0.0",
   "description": "Javascript to call api software.kmutnb.ac.th",
   "main": "index.js",
